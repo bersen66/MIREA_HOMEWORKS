@@ -1,10 +1,7 @@
 package lab5;
 
-import com.sun.javafx.scene.traversal.Algorithm;
-import com.sun.javaws.exceptions.InvalidArgumentException;
-
 import java.util.Comparator;
-import java.util.Iterator;
+
 
 public class SortingAlgotithms {
 

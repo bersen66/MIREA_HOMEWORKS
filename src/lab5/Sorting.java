@@ -20,6 +20,7 @@ public class Sorting {
                 new Student("Olga",    5.0),
                 new Student("Mary",    5.0),
                 new Student("Georg",   2.0),
+                new Student("Арина",   4),
         };
 
         SortingAlgotithms.insertionSort(students);
@@ -30,6 +31,8 @@ public class Sorting {
         Comparator<Student> comparator = (lhs, rhs) -> {
             return lhs.compareTo(rhs);
         };
+
+
         Student[] students = {
                 new Student("Bob",     4.2),
                 new Student("Alice",   4.9),
@@ -70,6 +73,7 @@ public class Sorting {
     public static void main(String[] args) {
         //TestTaskOne();
         //TestTaskTwo();
+
         TestTaskThree();
 
 
