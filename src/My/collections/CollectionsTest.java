@@ -17,12 +17,6 @@ public class CollectionsTest {
         return arr;
     }
 
-    static void printArray(int[] arr) {
-        for (int val : arr) {
-            System.out.print(val + " ");
-        }
-    }
-
     static String testPlayer(Player player1, Player player2) {
         int turnCnt = 0;
 
@@ -63,19 +57,9 @@ public class CollectionsTest {
 
 
     public static void main(String[] args) {
-//        Scanner in = new Scanner(System.in);
-//        int[] deq1 = new int[5];
-//        for (int i = 0; i < 5; i++) {
-//            deq1[i] = in.nextInt();
-//        }
-//        int[] deq2 = new int[5];
-//        for (int i = 0; i < 5; i++) {
-//            deq2[i] = in.nextInt();
-//        }
         System.out.println(testPlayer(
                 new PlayerDeque("first", readArray(5)),
-                new PlayerDeque("second", readArray(5))
+                new PlayerStack("second", readArray(5))
         ));
-
     }
 }

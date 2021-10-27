@@ -2,6 +2,8 @@ package My.collections.player;
 
 import sun.misc.Queue;
 
+import java.util.Stack;
+
 public class PlayerQueue implements Player{
 
     String name = "No name";
@@ -27,7 +29,7 @@ public class PlayerQueue implements Player{
 
     @Override
     public String getName() {
-        return null;
+        return name;
     }
 
     @Override
